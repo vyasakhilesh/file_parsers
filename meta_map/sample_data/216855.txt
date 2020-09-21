@@ -1,0 +1,337 @@
+input text: 
+ Evaluation of sternal bone marrow aspiration for detection of tumor cells in patients with bronchogenic carcinoma. We evaluated sternal bone marrow aspiration as a routine pretreatment procedure in patients with bronchogenic carcinoma. The overall rate of identification of tumor cells by this technique was found to be low. When oat cell bronchogenic carcinoma was considered as a separate entity, the positive rate was higher. However, in no instance did the bone marrow aspiration result in a change in clinical staging. 
+Negations:
+type: nega
+Trigger: no: [(441, 2),]
+ConceptPairs: [(C0220787,Aspiration),(C0700198,ASPIRATION),]
+ConceptPositionList: [(473, 10),]
+Utterance:
+ Id: 00000000.tx.1
+ Utterance text: Evaluation of sternal bone marrow aspiration for detection of tumor cells in patients with bronchogenic carcinoma. 
+ Position: (0, 115)
+Phrase:
+ text: Evaluation
+ Minimal Commitment Parse: [head([lexmatch([evaluation]),inputmatch([Evaluation]),tag(noun),tokens([evaluation])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of sternal bone marrow aspiration
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([sternal]),inputmatch([sternal]),tag(adj),tokens([sternal])]),mod([lexmatch([bone marrow]),inputmatch([bone,marrow]),tag(noun),tokens([bone,marrow])]),head([lexmatch([aspiration]),inputmatch([aspiration]),tag(noun),tokens([aspiration])])]
+Candidates:
+Mappings:
+ Map Score: -812
+   Score: -812
+   Concept Id: C0220787
+   Concept Name: Aspiration
+   Preferred Name: Endotracheal aspiration
+   Matched Words: [aspiration]
+   Semantic Types: [patf]
+   MatchMap: [[[4, 4], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, LNC, MTH, SNOMEDCT_US]
+   Positional Info: [(34, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -812
+   Score: -812
+   Concept Id: C0700198
+   Concept Name: ASPIRATION
+   Preferred Name: Pulmonary aspiration
+   Matched Words: [aspiration]
+   Semantic Types: [patf]
+   MatchMap: [[[4, 4], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, CST, DXP, HPO, MTH, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(34, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: for detection
+ Minimal Commitment Parse: [prep([lexmatch([for]),inputmatch([for]),tag(prep),tokens([for])]),head([lexmatch([detection]),inputmatch([detection]),tag(noun),tokens([detection])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of tumor cells
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),head([lexmatch([tumor cells]),inputmatch([tumor,cells]),tag(noun),tokens([tumor,cells])])]
+Candidates:
+Mappings:
+Phrase:
+ text: in patients
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),head([lexmatch([patients]),inputmatch([patients]),tag(noun),tokens([patients])])]
+Candidates:
+Mappings:
+Phrase:
+ text: with bronchogenic carcinoma.
+ Minimal Commitment Parse: [prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),head([lexmatch([bronchogenic carcinoma]),inputmatch([bronchogenic,carcinoma]),tag(noun),tokens([bronchogenic,carcinoma])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.2
+ Utterance text: We evaluated sternal bone marrow aspiration as a routine pretreatment procedure in patients with bronchogenic carcinoma. 
+ Position: (115, 121)
+Phrase:
+ text: We
+ Minimal Commitment Parse: [pron([lexmatch([we]),inputmatch([We]),tag(pron),tokens([we])])]
+Candidates:
+Mappings:
+Phrase:
+ text: evaluated
+ Minimal Commitment Parse: [verb([lexmatch([evaluated]),inputmatch([evaluated]),tag(verb),tokens([evaluated])])]
+Candidates:
+Mappings:
+Phrase:
+ text: sternal bone marrow aspiration
+ Minimal Commitment Parse: [mod([lexmatch([sternal]),inputmatch([sternal]),tag(adj),tokens([sternal])]),mod([lexmatch([bone marrow]),inputmatch([bone,marrow]),tag(noun),tokens([bone,marrow])]),head([lexmatch([aspiration]),inputmatch([aspiration]),tag(noun),tokens([aspiration])])]
+Candidates:
+Mappings:
+ Map Score: -812
+   Score: -812
+   Concept Id: C0220787
+   Concept Name: Aspiration
+   Preferred Name: Endotracheal aspiration
+   Matched Words: [aspiration]
+   Semantic Types: [patf]
+   MatchMap: [[[4, 4], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, LNC, MTH, SNOMEDCT_US]
+   Positional Info: [(148, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -812
+   Score: -812
+   Concept Id: C0700198
+   Concept Name: ASPIRATION
+   Preferred Name: Pulmonary aspiration
+   Matched Words: [aspiration]
+   Semantic Types: [patf]
+   MatchMap: [[[4, 4], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 4, phrase end: 4], [concept start: 4, concept end: 4], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, CST, DXP, HPO, MTH, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(148, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: as a routine pretreatment procedure
+ Minimal Commitment Parse: [prep([lexmatch([as]),inputmatch([as]),tag(prep),tokens([as])]),det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),mod([lexmatch([routine]),inputmatch([routine]),tag(adj),tokens([routine])]),mod([lexmatch([pretreatment]),inputmatch([pretreatment]),tag(noun),tokens([pretreatment])]),head([lexmatch([procedure]),inputmatch([procedure]),tag(noun),tokens([procedure])])]
+Candidates:
+Mappings:
+ Map Score: -660
+   Score: -660
+   Concept Id: C1550147
+   Concept Name: Pretreatment
+   Preferred Name: Pretreatment (substance)
+   Matched Words: [pretreatment]
+   Semantic Types: [sbst]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [HL7V2.5, MTH]
+   Positional Info: [(172, 12)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: in patients
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),head([lexmatch([patients]),inputmatch([patients]),tag(noun),tokens([patients])])]
+Candidates:
+Mappings:
+Phrase:
+ text: with bronchogenic carcinoma.
+ Minimal Commitment Parse: [prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),head([lexmatch([bronchogenic carcinoma]),inputmatch([bronchogenic,carcinoma]),tag(noun),tokens([bronchogenic,carcinoma])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.3
+ Utterance text: The overall rate of identification of tumor cells by this technique was found to be low. 
+ Position: (236, 89)
+Phrase:
+ text: The overall rate
+ Minimal Commitment Parse: [det([lexmatch([the]),inputmatch([The]),tag(det),tokens([the])]),mod([lexmatch([overall]),inputmatch([overall]),tag(adj),tokens([overall])]),head([lexmatch([rate]),inputmatch([rate]),tag(noun),tokens([rate])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of identification
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),head([lexmatch([identification]),inputmatch([identification]),tag(noun),tokens([identification])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of tumor cells
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),head([lexmatch([tumor cells]),inputmatch([tumor,cells]),tag(noun),tokens([tumor,cells])])]
+Candidates:
+Mappings:
+Phrase:
+ text: by this technique
+ Minimal Commitment Parse: [prep([lexmatch([by]),inputmatch([by]),tag(prep),tokens([by])]),det([lexmatch([this]),inputmatch([this]),tag(det),tokens([this])]),head([lexmatch([technique]),inputmatch([technique]),tag(noun),tokens([technique])])]
+Candidates:
+Mappings:
+Phrase:
+ text: was
+ Minimal Commitment Parse: [aux([lexmatch([was]),inputmatch([was]),tag(aux),tokens([was])])]
+Candidates:
+Mappings:
+Phrase:
+ text: found
+ Minimal Commitment Parse: [verb([lexmatch([found]),inputmatch([found]),tag(verb),tokens([found])])]
+Candidates:
+Mappings:
+Phrase:
+ text: to
+ Minimal Commitment Parse: [adv([lexmatch([to]),inputmatch([to]),tag(adv),tokens([to])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0041260
+   Concept Name: TO
+   Preferred Name: Tryptophanase
+   Matched Words: [to]
+   Semantic Types: [aapp, enzy]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CSP, MSH, MTH, NCI, NLMSubSyn, PDQ, SNMI, SNOMEDCT_US]
+   Positional Info: [(314, 2)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: be
+ Minimal Commitment Parse: [aux([lexmatch([be]),inputmatch([be]),tag(aux),tokens([be])])]
+Candidates:
+Mappings:
+Phrase:
+ text: low.
+ Minimal Commitment Parse: [head([lexmatch([low]),inputmatch([low]),tag(adj),tokens([low])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.4
+ Utterance text: When oat cell bronchogenic carcinoma was considered as a separate entity, the positive rate was higher. 
+ Position: (325, 104)
+Phrase:
+ text: When
+ Minimal Commitment Parse: [conj([lexmatch([when]),inputmatch([When]),tag(conj),tokens([when])])]
+Candidates:
+Mappings:
+Phrase:
+ text: oat cell bronchogenic carcinoma
+ Minimal Commitment Parse: [mod([lexmatch([oat cell]),inputmatch([oat,cell]),tag(adj),tokens([oat,cell])]),head([lexmatch([bronchogenic carcinoma]),inputmatch([bronchogenic,carcinoma]),tag(noun),tokens([bronchogenic,carcinoma])])]
+Candidates:
+Mappings:
+Phrase:
+ text: was
+ Minimal Commitment Parse: [aux([lexmatch([was]),inputmatch([was]),tag(aux),tokens([was])])]
+Candidates:
+Mappings:
+Phrase:
+ text: considered
+ Minimal Commitment Parse: [verb([lexmatch([considered]),inputmatch([considered]),tag(verb),tokens([considered])])]
+Candidates:
+Mappings:
+Phrase:
+ text: as a separate entity,
+ Minimal Commitment Parse: [prep([lexmatch([as]),inputmatch([as]),tag(prep),tokens([as])]),det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),mod([lexmatch([separate]),inputmatch([separate]),tag(adj),tokens([separate])]),head([lexmatch([entity]),inputmatch([entity]),tag(noun),tokens([entity])]),punc([inputmatch([,]),tokens([])])]
+Candidates:
+Mappings:
+Phrase:
+ text: the positive rate
+ Minimal Commitment Parse: [det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([positive]),inputmatch([positive]),tag(adj),tokens([positive])]),head([lexmatch([rate]),inputmatch([rate]),tag(noun),tokens([rate])])]
+Candidates:
+Mappings:
+ Map Score: -694
+   Score: -694
+   Concept Id: C4727483
+   Concept Name: Positive
+   Preferred Name: BRAF Gene Rearrangement
+   Matched Words: [positive]
+   Semantic Types: [comd]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [MTH, NCI, NCI_CTRP]
+   Positional Info: [(403, 8)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: was
+ Minimal Commitment Parse: [aux([lexmatch([was]),inputmatch([was]),tag(aux),tokens([was])])]
+Candidates:
+Mappings:
+Phrase:
+ text: higher.
+ Minimal Commitment Parse: [head([lexmatch([higher]),inputmatch([higher]),tag(adj),tokens([higher])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.5
+ Utterance text: However, in no instance did the bone marrow aspiration result in a change in clinical staging.
+ Position: (429, 94)
+Phrase:
+ text: However,
+ Minimal Commitment Parse: [adv([lexmatch([however]),inputmatch([However]),tag(adv),tokens([however])]),punc([inputmatch([,]),tokens([])])]
+Candidates:
+Mappings:
+Phrase:
+ text: in no instance
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([no]),inputmatch([no]),tag(det),tokens([no])]),head([lexmatch([instance]),inputmatch([instance]),tag(noun),tokens([instance])])]
+Candidates:
+Mappings:
+Phrase:
+ text: did
+ Minimal Commitment Parse: [aux([lexmatch([did]),inputmatch([did]),tag(aux),tokens([did])])]
+Candidates:
+Mappings:
+Phrase:
+ text: the bone marrow aspiration result
+ Minimal Commitment Parse: [det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([bone marrow]),inputmatch([bone,marrow]),tag(noun),tokens([bone,marrow])]),mod([lexmatch([aspiration]),inputmatch([aspiration]),tag(noun),tokens([aspiration])]),head([lexmatch([result]),inputmatch([result]),tag(noun),tokens([result])])]
+Candidates:
+Mappings:
+ Map Score: -645
+   Score: -645
+   Concept Id: C0220787
+   Concept Name: Aspiration
+   Preferred Name: Endotracheal aspiration
+   Matched Words: [aspiration]
+   Semantic Types: [patf]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, LNC, MTH, SNOMEDCT_US]
+   Positional Info: [(473, 10)]
+   Pruning Status: 0
+   Negation Status: 1
+ Map Score: -645
+   Score: -645
+   Concept Id: C0700198
+   Concept Name: ASPIRATION
+   Preferred Name: Pulmonary aspiration
+   Matched Words: [aspiration]
+   Semantic Types: [patf]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, CST, DXP, HPO, MTH, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(473, 10)]
+   Pruning Status: 0
+   Negation Status: 1
+Phrase:
+ text: in a change
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),head([lexmatch([change]),inputmatch([change]),tag(noun),tokens([change])])]
+Candidates:
+Mappings:
+Phrase:
+ text: in clinical staging.
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),mod([lexmatch([clinical]),inputmatch([clinical]),tag(adj),tokens([clinical])]),head([lexmatch([staging]),inputmatch([staging]),tag(noun),tokens([staging])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:

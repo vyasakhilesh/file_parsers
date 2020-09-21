@@ -1,0 +1,265 @@
+input text: 
+ Cyst formation and cavitation in pulmonary metastases from Wilms' tumor. A report of two cases. Two children with pulmonary metastases from Wilms' tumor are presented. In one case the lesions evolved into large cysts and in the other case cavitation occurred within two metastatic nodules. These are extremely rare complications of metastases from Wilms' tumor. The possible mechanisms are briefly discussed. 
+Utterance:
+ Id: 00000000.tx.1
+ Utterance text: Cyst formation and cavitation in pulmonary metastases from Wilms' tumor. 
+ Position: (0, 73)
+Phrase:
+ text: Cyst formation
+ Minimal Commitment Parse: [mod([lexmatch([cyst]),inputmatch([Cyst]),tag(noun),tokens([cyst])]),head([lexmatch([formation]),inputmatch([formation]),tag(noun),tokens([formation])])]
+Candidates:
+Mappings:
+Phrase:
+ text: and
+ Minimal Commitment Parse: [conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])]
+Candidates:
+Mappings:
+Phrase:
+ text: cavitation
+ Minimal Commitment Parse: [head([lexmatch([cavitation]),inputmatch([cavitation]),tag(noun),tokens([cavitation])])]
+Candidates:
+Mappings:
+Phrase:
+ text: in pulmonary metastases
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),head([lexmatch([pulmonary metastases]),inputmatch([pulmonary,metastases]),tag(noun),tokens([pulmonary,metastases])])]
+Candidates:
+Mappings:
+Phrase:
+ text: from Wilms' tumor.
+ Minimal Commitment Parse: [prep([lexmatch([from]),inputmatch([from]),tag(prep),tokens([from])]),head([lexmatch([wilms' tumor]),inputmatch([Wilms,',tumor]),tag(noun),tokens([wilms,tumor])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.2
+ Utterance text: A report of two cases. 
+ Position: (73, 23)
+Phrase:
+ text: A report
+ Minimal Commitment Parse: [det([lexmatch([a]),inputmatch([A]),tag(det),tokens([a])]),head([lexmatch([report]),inputmatch([report]),tag(noun),tokens([report])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of two cases.
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([two]),inputmatch([two]),tag(adj),tokens([two])]),head([lexmatch([cases]),inputmatch([cases]),tag(noun),tokens([cases])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.3
+ Utterance text: Two children with pulmonary metastases from Wilms' tumor are presented. 
+ Position: (96, 72)
+Phrase:
+ text: Two children
+ Minimal Commitment Parse: [mod([lexmatch([two]),inputmatch([Two]),tag(adj),tokens([two])]),head([lexmatch([children]),inputmatch([children]),tag(noun),tokens([children])])]
+Candidates:
+Mappings:
+Phrase:
+ text: with pulmonary metastases
+ Minimal Commitment Parse: [prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),head([lexmatch([pulmonary metastases]),inputmatch([pulmonary,metastases]),tag(noun),tokens([pulmonary,metastases])])]
+Candidates:
+Mappings:
+Phrase:
+ text: from Wilms' tumor
+ Minimal Commitment Parse: [prep([lexmatch([from]),inputmatch([from]),tag(prep),tokens([from])]),head([lexmatch([wilms' tumor]),inputmatch([Wilms,',tumor]),tag(noun),tokens([wilms,tumor])])]
+Candidates:
+Mappings:
+Phrase:
+ text: are
+ Minimal Commitment Parse: [aux([lexmatch([are]),inputmatch([are]),tag(aux),tokens([are])])]
+Candidates:
+Mappings:
+Phrase:
+ text: presented.
+ Minimal Commitment Parse: [verb([lexmatch([presented]),inputmatch([presented]),tag(verb),tokens([presented])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.4
+ Utterance text: In one case the lesions evolved into large cysts and in the other case cavitation occurred within two metastatic nodules. 
+ Position: (168, 122)
+Phrase:
+ text: In one case
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([In]),tag(prep),tokens([in])]),mod([lexmatch([one]),inputmatch([one]),tag(noun),tokens([one])]),head([lexmatch([case]),inputmatch([case]),tag(noun),tokens([case])])]
+Candidates:
+Mappings:
+Phrase:
+ text: the lesions
+ Minimal Commitment Parse: [det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([lesions]),inputmatch([lesions]),tag(noun),tokens([lesions])])]
+Candidates:
+Mappings:
+Phrase:
+ text: evolved
+ Minimal Commitment Parse: [verb([lexmatch([evolved]),inputmatch([evolved]),tag(verb),tokens([evolved])])]
+Candidates:
+Mappings:
+Phrase:
+ text: into large cysts
+ Minimal Commitment Parse: [prep([lexmatch([into]),inputmatch([into]),tag(prep),tokens([into])]),mod([lexmatch([large]),inputmatch([large]),tag(adj),tokens([large])]),head([lexmatch([cysts]),inputmatch([cysts]),tag(noun),tokens([cysts])])]
+Candidates:
+Mappings:
+ Map Score: -861
+   Score: -861
+   Concept Id: C0010709
+   Concept Name: CYSTS
+   Preferred Name: Cyst
+   Matched Words: [cysts]
+   Semantic Types: [dsyn]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, COSTAR, CST, LCH, LNC, MSH, MTH, NCI, NCI_CDISC, NCI_NCI-GLOSS, NCI_NICHD, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(211, 5)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: and
+ Minimal Commitment Parse: [conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])]
+Candidates:
+Mappings:
+Phrase:
+ text: in the
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])])]
+Candidates:
+Mappings:
+Phrase:
+ text: other case cavitation
+ Minimal Commitment Parse: [det([lexmatch([other]),inputmatch([other]),tag(det),tokens([other])]),mod([lexmatch([case]),inputmatch([case]),tag(noun),tokens([case])]),head([lexmatch([cavitation]),inputmatch([cavitation]),tag(noun),tokens([cavitation])])]
+Candidates:
+Mappings:
+Phrase:
+ text: occurred
+ Minimal Commitment Parse: [verb([lexmatch([occurred]),inputmatch([occurred]),tag(verb),tokens([occurred])])]
+Candidates:
+Mappings:
+Phrase:
+ text: within two metastatic nodules.
+ Minimal Commitment Parse: [prep([lexmatch([within]),inputmatch([within]),tag(prep),tokens([within])]),mod([lexmatch([two]),inputmatch([two]),tag(adj),tokens([two])]),mod([lexmatch([metastatic]),inputmatch([metastatic]),tag(adj),tokens([metastatic])]),head([lexmatch([nodules]),inputmatch([nodules]),tag(noun),tokens([nodules])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+ Map Score: -827
+   Score: -827
+   Concept Id: C0028259
+   Concept Name: Nodules
+   Preferred Name: Nodule
+   Matched Words: [nodules]
+   Semantic Types: [acab]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, COSTAR, MTH, NCI, NCI_CDISC, NCI_NCI-GLOSS, OMIM, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(281, 7)]
+   Pruning Status: 0
+   Negation Status: 0
+Utterance:
+ Id: 00000000.tx.5
+ Utterance text: These are extremely rare complications of metastases from Wilms' tumor. 
+ Position: (290, 72)
+Phrase:
+ text: These
+ Minimal Commitment Parse: [det([lexmatch([these]),inputmatch([These]),tag(det),tokens([these])])]
+Candidates:
+Mappings:
+Phrase:
+ text: are
+ Minimal Commitment Parse: [aux([lexmatch([are]),inputmatch([are]),tag(aux),tokens([are])])]
+Candidates:
+Mappings:
+Phrase:
+ text: extremely rare complications
+ Minimal Commitment Parse: [adv([lexmatch([extremely]),inputmatch([extremely]),tag(adv),tokens([extremely])]),mod([lexmatch([rare]),inputmatch([rare]),tag(adj),tokens([rare])]),head([lexmatch([complications]),inputmatch([complications]),tag(noun),tokens([complications])])]
+Candidates:
+Mappings:
+ Map Score: -827
+   Score: -827
+   Concept Id: C0009566
+   Concept Name: Complications
+   Preferred Name: Complication
+   Matched Words: [complications]
+   Semantic Types: [patf]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CCS, CHV, CSP, LNC, MTH, MTHMST, NCI, NCI_NCI-GLOSS, NCI_NICHD, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(315, 13)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -790
+   Score: -660
+   Concept Id: C1514917
+   Concept Name: RARE
+   Preferred Name: Retinoic Acid Response Element
+   Matched Words: [rare]
+   Semantic Types: [gngm]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(310, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+   Score: -827
+   Concept Id: C0009566
+   Concept Name: Complications
+   Preferred Name: Complication
+   Matched Words: [complications]
+   Semantic Types: [patf]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CCS, CHV, CSP, LNC, MTH, MTHMST, NCI, NCI_NCI-GLOSS, NCI_NICHD, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(315, 13)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -660
+   Score: -660
+   Concept Id: C1514917
+   Concept Name: RARE
+   Preferred Name: Retinoic Acid Response Element
+   Matched Words: [rare]
+   Semantic Types: [gngm]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(310, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: of metastases
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),head([lexmatch([metastases]),inputmatch([metastases]),tag(noun),tokens([metastases])])]
+Candidates:
+Mappings:
+Phrase:
+ text: from Wilms' tumor.
+ Minimal Commitment Parse: [prep([lexmatch([from]),inputmatch([from]),tag(prep),tokens([from])]),head([lexmatch([wilms' tumor]),inputmatch([Wilms,',tumor]),tag(noun),tokens([wilms,tumor])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.6
+ Utterance text: The possible mechanisms are briefly discussed.
+ Position: (362, 46)
+Phrase:
+ text: The possible mechanisms
+ Minimal Commitment Parse: [det([lexmatch([the]),inputmatch([The]),tag(det),tokens([the])]),mod([lexmatch([possible]),inputmatch([possible]),tag(adj),tokens([possible])]),head([lexmatch([mechanisms]),inputmatch([mechanisms]),tag(noun),tokens([mechanisms])])]
+Candidates:
+Mappings:
+Phrase:
+ text: are
+ Minimal Commitment Parse: [aux([lexmatch([are]),inputmatch([are]),tag(aux),tokens([are])])]
+Candidates:
+Mappings:
+Phrase:
+ text: briefly
+ Minimal Commitment Parse: [adv([lexmatch([briefly]),inputmatch([briefly]),tag(adv),tokens([briefly])])]
+Candidates:
+Mappings:
+Phrase:
+ text: discussed.
+ Minimal Commitment Parse: [verb([lexmatch([discussed]),inputmatch([discussed]),tag(verb),tokens([discussed])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:

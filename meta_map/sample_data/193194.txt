@@ -1,0 +1,709 @@
+input text: 
+ Computerized cranial tomography and radionuclide imaging in the detection of intracranial mass lesions. Computerized cranial tomography (CCT) and radionuclide imaging (RI) of the brain are both accurate techniques for detecting intracranial mass lesions. CCT is superior in detecting low-grade gliomas, cystic lesions, parasellar tumors, and brain stem lesions. Overall, CCT detection rates are slightly higher than those with RI, but the use of iodinated contrast media with CCT increases the risk of this examination. There is a significant difference in the generally binary (positive/negative) type of information offered by RI and the more specific information offered by CCT about the pathologic nature of a lesion and its precise location. In the evaluation of patients with suspected intracranial mass lesions, CCT is generally the preferable initial diagnostic test. However, RI may still serve as a satisfactory screening examination in certain well-defined clinical situations. 
+Acronyms and Abbreviations:
+Acronym: CCT
+Expansion: Computerized cranial tomography
+Count list: [1, 3, 5]
+CUI list: []
+Acronym: RI
+Expansion: radionuclide imaging
+Count list: [1, 2, 3]
+CUI list: [C0034606]
+Utterance:
+ Id: 00000000.tx.1
+ Utterance text: Computerized cranial tomography and radionuclide imaging in the detection of intracranial mass lesions. 
+ Position: (0, 104)
+Phrase:
+ text: Computerized cranial tomography
+ Minimal Commitment Parse: [head([lexmatch([computerized cranial tomography]),inputmatch([Computerized,cranial,tomography]),tag(noun),tokens([computerized,cranial,tomography])])]
+Candidates:
+Mappings:
+ Map Score: -913
+   Score: -913
+   Concept Id: C0040405
+   Concept Name: COMPUTERIZED TOMOGRAPHY
+   Preferred Name: X-Ray Computed Tomography
+   Matched Words: [computerized, tomography]
+   Semantic Types: [diap]
+   MatchMap: [[[1, 1], [1, 1], 0], [[3, 3], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, HL7V2.5, HL7V3.0, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NCI_CDISC, NCI_CTRP, NCI_FDA, NCI_NCI-GLOSS, NLMSubSyn, PDQ, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(0, 12), (21, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: and
+ Minimal Commitment Parse: [conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])]
+Candidates:
+Mappings:
+Phrase:
+ text: radionuclide imaging
+ Minimal Commitment Parse: [head([lexmatch([radionuclide imaging]),inputmatch([radionuclide,imaging]),tag(noun),tokens([radionuclide,imaging])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0034606
+   Concept Name: Radionuclide Imaging
+   Preferred Name: Radionuclide Imaging
+   Matched Words: [radionuclide, imaging]
+   Semantic Types: [diap]
+   MatchMap: [[[1, 2], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CCS, CCS_10, CHV, CSP, HL7V2.5, ICD9CM, LCH, LCH_NW, MEDLINEPLUS, MSH, MTH, NCI, NCI_CDISC, NCI_CTRP, NCI_NCI-GLOSS, NLMSubSyn, PDQ, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(36, 20)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: in the detection
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([detection]),inputmatch([detection]),tag(noun),tokens([detection])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of intracranial mass lesions.
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([intracranial]),inputmatch([intracranial]),tag(adj),tokens([intracranial])]),mod([lexmatch([mass]),inputmatch([mass]),tag(noun),tokens([mass])]),head([lexmatch([lesions]),inputmatch([lesions]),tag(noun),tokens([lesions])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+ Map Score: -660
+   Score: -660
+   Concept Id: C0577573
+   Concept Name: Mass
+   Preferred Name: Mass of body region
+   Matched Words: [mass]
+   Semantic Types: [sosy]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [LNC, MTH, SNOMEDCT_US, SNOMEDCT_VET]
+   Positional Info: [(90, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -660
+   Score: -660
+   Concept Id: C1096155
+   Concept Name: MAS
+   Preferred Name: Macrophage Activation Syndrome
+   Matched Words: [mas]
+   Semantic Types: [dsyn]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [MSH, MTH, MTHICD9, NCI, NCI_CTRP, NCI_NICHD, SNOMEDCT_US]
+   Positional Info: [(90, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+Utterance:
+ Id: 00000000.tx.2
+ Utterance text: Computerized cranial tomography (CCT) and radionuclide imaging (RI) of the brain are both accurate techniques for detecting intracranial mass lesions. 
+ Position: (104, 151)
+Phrase:
+ text: Computerized cranial tomography
+ Minimal Commitment Parse: [head([lexmatch([computerized cranial tomography]),inputmatch([Computerized,cranial,tomography]),tag(noun),tokens([computerized,cranial,tomography])])]
+Candidates:
+Mappings:
+ Map Score: -913
+   Score: -913
+   Concept Id: C0040405
+   Concept Name: COMPUTERIZED TOMOGRAPHY
+   Preferred Name: X-Ray Computed Tomography
+   Matched Words: [computerized, tomography]
+   Semantic Types: [diap]
+   MatchMap: [[[1, 1], [1, 1], 0], [[3, 3], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, HL7V2.5, HL7V3.0, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NCI_CDISC, NCI_CTRP, NCI_FDA, NCI_NCI-GLOSS, NLMSubSyn, PDQ, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(104, 12), (125, 10)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: and
+ Minimal Commitment Parse: [conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])]
+Candidates:
+Mappings:
+Phrase:
+ text: radionuclide imaging
+ Minimal Commitment Parse: [head([lexmatch([radionuclide imaging]),inputmatch([radionuclide,imaging]),tag(noun),tokens([radionuclide,imaging])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0034606
+   Concept Name: Radionuclide Imaging
+   Preferred Name: Radionuclide Imaging
+   Matched Words: [radionuclide, imaging]
+   Semantic Types: [diap]
+   MatchMap: [[[1, 2], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CCS, CCS_10, CHV, CSP, HL7V2.5, ICD9CM, LCH, LCH_NW, MEDLINEPLUS, MSH, MTH, NCI, NCI_CDISC, NCI_CTRP, NCI_NCI-GLOSS, NLMSubSyn, PDQ, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(146, 20)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: of the brain
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([brain]),inputmatch([brain]),tag(noun),tokens([brain])])]
+Candidates:
+Mappings:
+Phrase:
+ text: are
+ Minimal Commitment Parse: [aux([lexmatch([are]),inputmatch([are]),tag(aux),tokens([are])])]
+Candidates:
+Mappings:
+Phrase:
+ text: both accurate techniques
+ Minimal Commitment Parse: [det([lexmatch([both]),inputmatch([both]),tag(det),tokens([both])]),mod([lexmatch([accurate]),inputmatch([accurate]),tag(adj),tokens([accurate])]),head([lexmatch([techniques]),inputmatch([techniques]),tag(noun),tokens([techniques])])]
+Candidates:
+Mappings:
+Phrase:
+ text: for detecting intracranial mass lesions.
+ Minimal Commitment Parse: [prep([lexmatch([for]),inputmatch([for]),tag(prep),tokens([for])]),mod([lexmatch([detecting]),inputmatch([detecting]),tag(noun),tokens([detecting])]),mod([lexmatch([intracranial]),inputmatch([intracranial]),tag(adj),tokens([intracranial])]),mod([lexmatch([mass]),inputmatch([mass]),tag(noun),tokens([mass])]),head([lexmatch([lesions]),inputmatch([lesions]),tag(noun),tokens([lesions])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+ Map Score: -645
+   Score: -645
+   Concept Id: C0577573
+   Concept Name: Mass
+   Preferred Name: Mass of body region
+   Matched Words: [mass]
+   Semantic Types: [sosy]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [LNC, MTH, SNOMEDCT_US, SNOMEDCT_VET]
+   Positional Info: [(241, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -645
+   Score: -645
+   Concept Id: C1096155
+   Concept Name: MAS
+   Preferred Name: Macrophage Activation Syndrome
+   Matched Words: [mas]
+   Semantic Types: [dsyn]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [MSH, MTH, MTHICD9, NCI, NCI_CTRP, NCI_NICHD, SNOMEDCT_US]
+   Positional Info: [(241, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+Utterance:
+ Id: 00000000.tx.3
+ Utterance text: CCT is superior in detecting low-grade gliomas, cystic lesions, parasellar tumors, and brain stem lesions. 
+ Position: (255, 107)
+Phrase:
+ text: CCT
+ Minimal Commitment Parse: [head([lexmatch([computerized cranial tomography]),inputmatch([Computerized,cranial,tomography]),tag(noun),tokens([computerized,cranial,tomography])])]
+Candidates:
+Mappings:
+ Map Score: -913
+   Score: -913
+   Concept Id: C0040405
+   Concept Name: COMPUTERIZED TOMOGRAPHY
+   Preferred Name: X-Ray Computed Tomography
+   Matched Words: [computerized, tomography]
+   Semantic Types: [diap]
+   MatchMap: [[[1, 1], [1, 1], 0], [[3, 3], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, HL7V2.5, HL7V3.0, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NCI_CDISC, NCI_CTRP, NCI_FDA, NCI_NCI-GLOSS, NLMSubSyn, PDQ, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(255, 3)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: is
+ Minimal Commitment Parse: [aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])]
+Candidates:
+Mappings:
+Phrase:
+ text: superior
+ Minimal Commitment Parse: [head([lexmatch([superior]),inputmatch([superior]),tag(adj),tokens([superior])])]
+Candidates:
+Mappings:
+Phrase:
+ text: in detecting low-grade gliomas,
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),mod([lexmatch([detecting]),inputmatch([detecting]),tag(noun),tokens([detecting])]),head([lexmatch([low-grade gliomas]),inputmatch([low,-,grade,gliomas]),tag(noun),tokens([low,grade,gliomas])]),punc([inputmatch([,]),tokens([])])]
+Candidates:
+Mappings:
+Phrase:
+ text: cystic lesions,
+ Minimal Commitment Parse: [mod([lexmatch([cystic]),inputmatch([cystic]),tag(adj),tokens([cystic])]),head([lexmatch([lesions]),inputmatch([lesions]),tag(noun),tokens([lesions])]),punc([inputmatch([,]),tokens([])])]
+Candidates:
+Mappings:
+Phrase:
+ text: parasellar tumors,
+ Minimal Commitment Parse: [mod([lexmatch([parasellar]),inputmatch([parasellar]),tag(adj),tokens([parasellar])]),head([lexmatch([tumors]),inputmatch([tumors]),tag(noun),tokens([tumors])]),punc([inputmatch([,]),tokens([])])]
+Candidates:
+Mappings:
+Phrase:
+ text: and
+ Minimal Commitment Parse: [conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])]
+Candidates:
+Mappings:
+Phrase:
+ text: brain stem lesions.
+ Minimal Commitment Parse: [head([lexmatch([brain stem lesions]),inputmatch([brain,stem,lesions]),tag(noun),tokens([brain,stem,lesions])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+ Map Score: -983
+   Score: -983
+   Concept Id: C4546143
+   Concept Name: Brainstem lesion
+   Preferred Name: Lesion of brainstem
+   Matched Words: [brainstem, lesion]
+   Semantic Types: [dsyn]
+   MatchMap: [[[1, 2], [1, 1], 0], [[3, 3], [2, 2], 1]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 0], [[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 1]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [SNOMEDCT_US]
+   Positional Info: [(342, 18)]
+   Pruning Status: 0
+   Negation Status: 0
+Utterance:
+ Id: 00000000.tx.4
+ Utterance text: Overall, CCT detection rates are slightly higher than those with RI, but the use of iodinated contrast media with CCT increases the risk of this examination. 
+ Position: (362, 158)
+Phrase:
+ text: Overall,
+ Minimal Commitment Parse: [adv([lexmatch([overall]),inputmatch([Overall]),tag(adv),tokens([overall])]),punc([inputmatch([,]),tokens([])])]
+Candidates:
+Mappings:
+Phrase:
+ text: CCT detection rates
+ Minimal Commitment Parse: [mod([lexmatch([computerized cranial tomography]),inputmatch([Computerized,cranial,tomography]),tag(noun),tokens([computerized,cranial,tomography])]),head([lexmatch([detection rates]),inputmatch([detection,rates]),tag(noun),tokens([detection,rates])])]
+Candidates:
+Mappings:
+ Map Score: -686
+   Score: -686
+   Concept Id: C0040405
+   Concept Name: COMPUTERIZED TOMOGRAPHY
+   Preferred Name: X-Ray Computed Tomography
+   Matched Words: [computerized, tomography]
+   Semantic Types: [diap]
+   MatchMap: [[[1, 1], [1, 1], 0], [[3, 3], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, HL7V2.5, HL7V3.0, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NCI_CDISC, NCI_CTRP, NCI_FDA, NCI_NCI-GLOSS, NLMSubSyn, PDQ, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(371, 3)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: are
+ Minimal Commitment Parse: [aux([lexmatch([are]),inputmatch([are]),tag(aux),tokens([are])])]
+Candidates:
+Mappings:
+Phrase:
+ text: slightly higher
+ Minimal Commitment Parse: [adv([lexmatch([slightly]),inputmatch([slightly]),tag(adv),tokens([slightly])]),head([lexmatch([higher]),inputmatch([higher]),tag(adj),tokens([higher])])]
+Candidates:
+Mappings:
+Phrase:
+ text: than those
+ Minimal Commitment Parse: [prep([lexmatch([than]),inputmatch([than]),tag(prep),tokens([than])]),pron([lexmatch([those]),inputmatch([those]),tag(pron),tokens([those])])]
+Candidates:
+Mappings:
+Phrase:
+ text: with RI,
+ Minimal Commitment Parse: [prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),head([lexmatch([radionuclide imaging]),inputmatch([radionuclide,imaging]),tag(noun),tokens([radionuclide,imaging])]),punc([inputmatch([,]),tokens([])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0034606
+   Concept Name: Radionuclide Imaging
+   Preferred Name: Radionuclide Imaging
+   Matched Words: [radionuclide, imaging]
+   Semantic Types: [diap]
+   MatchMap: [[[1, 2], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CCS, CCS_10, CHV, CSP, HL7V2.5, ICD9CM, LCH, LCH_NW, MEDLINEPLUS, MSH, MTH, NCI, NCI_CDISC, NCI_CTRP, NCI_NCI-GLOSS, NLMSubSyn, PDQ, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(427, 2)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: but
+ Minimal Commitment Parse: [conj([lexmatch([but]),inputmatch([but]),tag(conj),tokens([but])])]
+Candidates:
+Mappings:
+Phrase:
+ text: the use
+ Minimal Commitment Parse: [det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([use]),inputmatch([use]),tag(noun),tokens([use])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of iodinated contrast media
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),head([lexmatch([iodinated contrast media]),inputmatch([iodinated,contrast,media]),tag(noun),tokens([iodinated,contrast,media])])]
+Candidates:
+Mappings:
+Phrase:
+ text: with CCT
+ Minimal Commitment Parse: [prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),head([lexmatch([computerized cranial tomography]),inputmatch([Computerized,cranial,tomography]),tag(noun),tokens([computerized,cranial,tomography])])]
+Candidates:
+Mappings:
+ Map Score: -913
+   Score: -913
+   Concept Id: C0040405
+   Concept Name: COMPUTERIZED TOMOGRAPHY
+   Preferred Name: X-Ray Computed Tomography
+   Matched Words: [computerized, tomography]
+   Semantic Types: [diap]
+   MatchMap: [[[1, 1], [1, 1], 0], [[3, 3], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, HL7V2.5, HL7V3.0, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NCI_CDISC, NCI_CTRP, NCI_FDA, NCI_NCI-GLOSS, NLMSubSyn, PDQ, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(476, 3)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: increases
+ Minimal Commitment Parse: [verb([lexmatch([increases]),inputmatch([increases]),tag(verb),tokens([increases])])]
+Candidates:
+Mappings:
+Phrase:
+ text: the risk
+ Minimal Commitment Parse: [det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([risk]),inputmatch([risk]),tag(noun),tokens([risk])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of this examination.
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),det([lexmatch([this]),inputmatch([this]),tag(det),tokens([this])]),head([lexmatch([examination]),inputmatch([examination]),tag(noun),tokens([examination])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.5
+ Utterance text: There is a significant difference in the generally binary (positive/negative) type of information offered by RI and the more specific information offered by CCT about the pathologic nature of a lesion and its precise location. 
+ Position: (520, 227)
+Phrase:
+ text: There
+ Minimal Commitment Parse: [adv([lexmatch([there]),inputmatch([There]),tag(adv),tokens([there])])]
+Candidates:
+Mappings:
+Phrase:
+ text: is
+ Minimal Commitment Parse: [aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])]
+Candidates:
+Mappings:
+Phrase:
+ text: a significant difference
+ Minimal Commitment Parse: [det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),head([lexmatch([significant difference]),inputmatch([significant,difference]),tag(noun),tokens([significant,difference])])]
+Candidates:
+Mappings:
+Phrase:
+ text: in the generally binary
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),adv([lexmatch([generally]),inputmatch([generally]),tag(adv),tokens([generally])]),head([lexmatch([binary]),inputmatch([binary]),tag(adj),tokens([binary])])]
+Candidates:
+Mappings:
+Phrase:
+ text: (positive/negative
+ Minimal Commitment Parse: [punc([inputmatch([(]),tokens([])]),mod([lexmatch([positive]),inputmatch([positive]),tag(noun),tokens([positive])]),punc([inputmatch([/]),tokens([])]),head([lexmatch([negative]),inputmatch([negative]),tag(noun),tokens([negative])])]
+Candidates:
+Mappings:
+ Map Score: -694
+   Score: -694
+   Concept Id: C4727483
+   Concept Name: Positive
+   Preferred Name: BRAF Gene Rearrangement
+   Matched Words: [positive]
+   Semantic Types: [comd]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [MTH, NCI, NCI_CTRP]
+   Positional Info: [(579, 8)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: )
+ Minimal Commitment Parse: [punc([inputmatch([)]),tokens([])])]
+Candidates:
+Mappings:
+Phrase:
+ text: type
+ Minimal Commitment Parse: [head([lexmatch([type]),inputmatch([type]),tag(noun),tokens([type])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of information
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),head([lexmatch([information]),inputmatch([information]),tag(noun),tokens([information])])]
+Candidates:
+Mappings:
+Phrase:
+ text: offered
+ Minimal Commitment Parse: [verb([lexmatch([offered]),inputmatch([offered]),tag(verb),tokens([offered])])]
+Candidates:
+Mappings:
+Phrase:
+ text: by RI
+ Minimal Commitment Parse: [prep([lexmatch([by]),inputmatch([by]),tag(prep),tokens([by])]),head([lexmatch([radionuclide imaging]),inputmatch([radionuclide,imaging]),tag(noun),tokens([radionuclide,imaging])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0034606
+   Concept Name: Radionuclide Imaging
+   Preferred Name: Radionuclide Imaging
+   Matched Words: [radionuclide, imaging]
+   Semantic Types: [diap]
+   MatchMap: [[[1, 2], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CCS, CCS_10, CHV, CSP, HL7V2.5, ICD9CM, LCH, LCH_NW, MEDLINEPLUS, MSH, MTH, NCI, NCI_CDISC, NCI_CTRP, NCI_NCI-GLOSS, NLMSubSyn, PDQ, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(629, 2)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: and
+ Minimal Commitment Parse: [conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])]
+Candidates:
+Mappings:
+Phrase:
+ text: the more specific information
+ Minimal Commitment Parse: [det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),adv([lexmatch([more]),inputmatch([more]),tag(adv),tokens([more])]),mod([lexmatch([specific]),inputmatch([specific]),tag(adj),tokens([specific])]),head([lexmatch([information]),inputmatch([information]),tag(noun),tokens([information])])]
+Candidates:
+Mappings:
+Phrase:
+ text: offered
+ Minimal Commitment Parse: [verb([lexmatch([offered]),inputmatch([offered]),tag(verb),tokens([offered])])]
+Candidates:
+Mappings:
+Phrase:
+ text: by CCT
+ Minimal Commitment Parse: [prep([lexmatch([by]),inputmatch([by]),tag(prep),tokens([by])]),head([lexmatch([computerized cranial tomography]),inputmatch([Computerized,cranial,tomography]),tag(noun),tokens([computerized,cranial,tomography])])]
+Candidates:
+Mappings:
+ Map Score: -913
+   Score: -913
+   Concept Id: C0040405
+   Concept Name: COMPUTERIZED TOMOGRAPHY
+   Preferred Name: X-Ray Computed Tomography
+   Matched Words: [computerized, tomography]
+   Semantic Types: [diap]
+   MatchMap: [[[1, 1], [1, 1], 0], [[3, 3], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, HL7V2.5, HL7V3.0, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NCI_CDISC, NCI_CTRP, NCI_FDA, NCI_NCI-GLOSS, NLMSubSyn, PDQ, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(677, 3)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: about the pathologic nature
+ Minimal Commitment Parse: [prep([lexmatch([about]),inputmatch([about]),tag(prep),tokens([about])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([pathologic]),inputmatch([pathologic]),tag(adj),tokens([pathologic])]),head([lexmatch([nature]),inputmatch([nature]),tag(noun),tokens([nature])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of a lesion
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),head([lexmatch([lesion]),inputmatch([lesion]),tag(noun),tokens([lesion])])]
+Candidates:
+Mappings:
+Phrase:
+ text: and
+ Minimal Commitment Parse: [conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])]
+Candidates:
+Mappings:
+Phrase:
+ text: its precise location.
+ Minimal Commitment Parse: [pron([lexmatch([its]),inputmatch([its]),tag(pron),tokens([its])]),mod([lexmatch([precise]),inputmatch([precise]),tag(adj),tokens([precise])]),head([lexmatch([location]),inputmatch([location]),tag(noun),tokens([location])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.6
+ Utterance text: In the evaluation of patients with suspected intracranial mass lesions, CCT is generally the preferable initial diagnostic test. 
+ Position: (747, 129)
+Phrase:
+ text: In the evaluation
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([In]),tag(prep),tokens([in])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([evaluation]),inputmatch([evaluation]),tag(noun),tokens([evaluation])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of patients
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),head([lexmatch([patients]),inputmatch([patients]),tag(noun),tokens([patients])])]
+Candidates:
+Mappings:
+Phrase:
+ text: with suspected intracranial mass lesions,
+ Minimal Commitment Parse: [prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),mod([lexmatch([suspected]),inputmatch([suspected]),tag(adj),tokens([suspected])]),mod([lexmatch([intracranial]),inputmatch([intracranial]),tag(adj),tokens([intracranial])]),mod([lexmatch([mass]),inputmatch([mass]),tag(noun),tokens([mass])]),head([lexmatch([lesions]),inputmatch([lesions]),tag(noun),tokens([lesions])]),punc([inputmatch([,]),tokens([])])]
+Candidates:
+Mappings:
+ Map Score: -645
+   Score: -645
+   Concept Id: C0577573
+   Concept Name: Mass
+   Preferred Name: Mass of body region
+   Matched Words: [mass]
+   Semantic Types: [sosy]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [LNC, MTH, SNOMEDCT_US, SNOMEDCT_VET]
+   Positional Info: [(805, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -645
+   Score: -645
+   Concept Id: C1096155
+   Concept Name: MAS
+   Preferred Name: Macrophage Activation Syndrome
+   Matched Words: [mas]
+   Semantic Types: [dsyn]
+   MatchMap: [[[3, 3], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [MSH, MTH, MTHICD9, NCI, NCI_CTRP, NCI_NICHD, SNOMEDCT_US]
+   Positional Info: [(805, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: CCT
+ Minimal Commitment Parse: [head([lexmatch([computerized cranial tomography]),inputmatch([Computerized,cranial,tomography]),tag(noun),tokens([computerized,cranial,tomography])])]
+Candidates:
+Mappings:
+ Map Score: -913
+   Score: -913
+   Concept Id: C0040405
+   Concept Name: COMPUTERIZED TOMOGRAPHY
+   Preferred Name: X-Ray Computed Tomography
+   Matched Words: [computerized, tomography]
+   Semantic Types: [diap]
+   MatchMap: [[[1, 1], [1, 1], 0], [[3, 3], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, HL7V2.5, HL7V3.0, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NCI_CDISC, NCI_CTRP, NCI_FDA, NCI_NCI-GLOSS, NLMSubSyn, PDQ, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(819, 3)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: is
+ Minimal Commitment Parse: [aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])]
+Candidates:
+Mappings:
+Phrase:
+ text: generally
+ Minimal Commitment Parse: [adv([lexmatch([generally]),inputmatch([generally]),tag(adv),tokens([generally])])]
+Candidates:
+Mappings:
+Phrase:
+ text: the preferable initial diagnostic test.
+ Minimal Commitment Parse: [det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([preferable]),inputmatch([preferable]),tag(adj),tokens([preferable])]),mod([lexmatch([initial]),inputmatch([initial]),tag(adj),tokens([initial])]),head([lexmatch([diagnostic test]),inputmatch([diagnostic,test]),tag(noun),tokens([diagnostic,test])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+ Map Score: -861
+   Score: -861
+   Concept Id: C0086143
+   Concept Name: Test, Diagnostic
+   Preferred Name: Diagnostic tests
+   Matched Words: [diagnostic, test]
+   Semantic Types: [diap]
+   MatchMap: [[[3, 4], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 4], [concept start: 3, concept end: 4], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AIR, AOD, CHV, CSP, HL7V2.5, MEDLINEPLUS, MSH, MTH, NLMSubSyn, PDQ]
+   Positional Info: [(859, 15)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -861
+   Score: -861
+   Concept Id: C0430022
+   Concept Name: Diagnostic Test
+   Preferred Name: diagnostic procedure
+   Matched Words: [diagnostic, test]
+   Semantic Types: [diap]
+   MatchMap: [[[3, 4], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 3, phrase end: 4], [concept start: 3, concept end: 4], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, HCPCS, MTH, MTHMST, NCI, NCI_CTRP, NCI_NCI-GLOSS, NCI_NICHD, NLMSubSyn, SNMI, SNOMEDCT_US]
+   Positional Info: [(859, 15)]
+   Pruning Status: 0
+   Negation Status: 0
+Utterance:
+ Id: 00000000.tx.7
+ Utterance text: However, RI may still serve as a satisfactory screening examination in certain well-defined clinical situations.
+ Position: (876, 112)
+Phrase:
+ text: However,
+ Minimal Commitment Parse: [adv([lexmatch([however]),inputmatch([However]),tag(adv),tokens([however])]),punc([inputmatch([,]),tokens([])])]
+Candidates:
+Mappings:
+Phrase:
+ text: RI
+ Minimal Commitment Parse: [head([lexmatch([radionuclide imaging]),inputmatch([radionuclide,imaging]),tag(noun),tokens([radionuclide,imaging])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0034606
+   Concept Name: Radionuclide Imaging
+   Preferred Name: Radionuclide Imaging
+   Matched Words: [radionuclide, imaging]
+   Semantic Types: [diap]
+   MatchMap: [[[1, 2], [1, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CCS, CCS_10, CHV, CSP, HL7V2.5, ICD9CM, LCH, LCH_NW, MEDLINEPLUS, MSH, MTH, NCI, NCI_CDISC, NCI_CTRP, NCI_NCI-GLOSS, NLMSubSyn, PDQ, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(885, 2)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: may
+ Minimal Commitment Parse: [modal([lexmatch([may]),inputmatch([may]),tag(modal),tokens([may])])]
+Candidates:
+Mappings:
+Phrase:
+ text: still
+ Minimal Commitment Parse: [adv([lexmatch([still]),inputmatch([still]),tag(adv),tokens([still])])]
+Candidates:
+Mappings:
+Phrase:
+ text: serve
+ Minimal Commitment Parse: [verb([lexmatch([serve]),inputmatch([serve]),tag(verb),tokens([serve])])]
+Candidates:
+Mappings:
+Phrase:
+ text: as a satisfactory screening examination
+ Minimal Commitment Parse: [prep([lexmatch([as]),inputmatch([as]),tag(prep),tokens([as])]),det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),mod([lexmatch([satisfactory]),inputmatch([satisfactory]),tag(adj),tokens([satisfactory])]),mod([lexmatch([screening]),inputmatch([screening]),tag(adj),tokens([screening])]),head([lexmatch([examination]),inputmatch([examination]),tag(noun),tokens([examination])])]
+Candidates:
+Mappings:
+ Map Score: -901
+   Score: -901
+   Concept Id: C0281974
+   Concept Name: Screening Examination
+   Preferred Name: screening examination
+   Matched Words: [screening, examination]
+   Semantic Types: [diap]
+   MatchMap: [[[2, 2], [1, 1], 0], [[3, 3], [2, 2], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0], [[phrase start: 3, phrase end: 3], [concept start: 3, concept end: 3], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, COSTAR, NLMSubSyn]
+   Positional Info: [(922, 21)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: in certain well-defined clinical situations.
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),mod([lexmatch([certain]),inputmatch([certain]),tag(adj),tokens([certain])]),mod([lexmatch([well-defined]),inputmatch([well,-,defined]),tag(adj),tokens([well,defined])]),mod([lexmatch([clinical]),inputmatch([clinical]),tag(adj),tokens([clinical])]),head([lexmatch([situations]),inputmatch([situations]),tag(noun),tokens([situations])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:

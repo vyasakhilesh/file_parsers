@@ -1,0 +1,514 @@
+input text: 
+ Small-cell carcinoma of the lung: therapeutic management. Although bronchogenic carcinoma generally remains a tumor resistant to treatment, marked progress in the therapy of the small-cell undifferentiated subtype has occurred in the past 5 years. Many aspects of its growth and metastatic spread are such that it is not satisfactorily treated surgically. However, it is sensitive to both radiation and a variety of chemotherapeutic agents. Use of these agents in combination seems to produce a greater antitumor effect than single drugs. The combination of radiation and chemotherapy results in marked tumor regressions. Untreated, this carcinoma has a very short median survival (2 months). Administration of current "aggressive" combination therapy regimens has resulted in median survivals of nearly 1 year with some patients still living 3 years after therapy. 
+Utterance:
+ Id: 00000000.tx.1
+ Utterance text: Small-cell carcinoma of the lung: therapeutic management. 
+ Position: (0, 58)
+Phrase:
+ text: Small-cell carcinoma
+ Minimal Commitment Parse: [head([lexmatch([small-cell carcinoma]),inputmatch([Small,-,cell,carcinoma]),tag(noun),tokens([small,cell,carcinoma])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of the lung
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([lung]),inputmatch([lung]),tag(noun),tokens([lung])])]
+Candidates:
+Mappings:
+Phrase:
+ text: :
+ Minimal Commitment Parse: [punc([inputmatch([:]),tokens([])])]
+Candidates:
+Mappings:
+Phrase:
+ text: therapeutic management.
+ Minimal Commitment Parse: [mod([lexmatch([therapeutic]),inputmatch([therapeutic]),tag(adj),tokens([therapeutic])]),head([lexmatch([management]),inputmatch([management]),tag(noun),tokens([management])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.2
+ Utterance text: Although bronchogenic carcinoma generally remains a tumor resistant to treatment, marked progress in the therapy of the small-cell undifferentiated subtype has occurred in the past 5 years. 
+ Position: (58, 190)
+Phrase:
+ text: Although
+ Minimal Commitment Parse: [conj([lexmatch([although]),inputmatch([Although]),tag(conj),tokens([although])])]
+Candidates:
+Mappings:
+Phrase:
+ text: bronchogenic carcinoma
+ Minimal Commitment Parse: [head([lexmatch([bronchogenic carcinoma]),inputmatch([bronchogenic,carcinoma]),tag(noun),tokens([bronchogenic,carcinoma])])]
+Candidates:
+Mappings:
+Phrase:
+ text: generally
+ Minimal Commitment Parse: [adv([lexmatch([generally]),inputmatch([generally]),tag(adv),tokens([generally])])]
+Candidates:
+Mappings:
+Phrase:
+ text: remains
+ Minimal Commitment Parse: [verb([lexmatch([remains]),inputmatch([remains]),tag(verb),tokens([remains])])]
+Candidates:
+Mappings:
+Phrase:
+ text: a tumor
+ Minimal Commitment Parse: [det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),head([lexmatch([tumor]),inputmatch([tumor]),tag(noun),tokens([tumor])])]
+Candidates:
+Mappings:
+Phrase:
+ text: resistant
+ Minimal Commitment Parse: [head([lexmatch([resistant]),inputmatch([resistant]),tag(adj),tokens([resistant])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C1514892
+   Concept Name: Resistant
+   Preferred Name: Resistance Process
+   Matched Words: [resistant]
+   Semantic Types: [phsf]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [MTH, NCI]
+   Positional Info: [(116, 9)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: to treatment,
+ Minimal Commitment Parse: [prep([lexmatch([to]),inputmatch([to]),tag(prep),tokens([to])]),head([lexmatch([treatment]),inputmatch([treatment]),tag(noun),tokens([treatment])]),punc([inputmatch([,]),tokens([])])]
+Candidates:
+Mappings:
+Phrase:
+ text: marked progress
+ Minimal Commitment Parse: [mod([lexmatch([marked]),inputmatch([marked]),tag(adj),tokens([marked])]),head([lexmatch([progress]),inputmatch([progress]),tag(noun),tokens([progress])])]
+Candidates:
+Mappings:
+Phrase:
+ text: in the therapy
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([therapy]),inputmatch([therapy]),tag(noun),tokens([therapy])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of the small-cell undifferentiated subtype
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([small-cell]),inputmatch([small,-,cell]),tag(adj),tokens([small,cell])]),mod([lexmatch([undifferentiated]),inputmatch([undifferentiated]),tag(adj),tokens([undifferentiated])]),head([lexmatch([subtype]),inputmatch([subtype]),tag(noun),tokens([subtype])])]
+Candidates:
+Mappings:
+ Map Score: -645
+   Score: -645
+   Concept Id: C1413336
+   Concept Name: CELL
+   Preferred Name: CEL gene
+   Matched Words: [cell]
+   Semantic Types: [gngm]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [HGNC, MTH, OMIM]
+   Positional Info: [(184, 4)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: has
+ Minimal Commitment Parse: [aux([lexmatch([has]),inputmatch([has]),tag(aux),tokens([has])])]
+Candidates:
+Mappings:
+Phrase:
+ text: occurred
+ Minimal Commitment Parse: [verb([lexmatch([occurred]),inputmatch([occurred]),tag(verb),tokens([occurred])])]
+Candidates:
+Mappings:
+Phrase:
+ text: in the past 5 years.
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([past]),inputmatch([past]),tag(noun),tokens([past])]),shapes([inputmatch([5]),features([integer]),tokens([5])]),head([lexmatch([years]),inputmatch([years]),tag(noun),tokens([years])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.3
+ Utterance text: Many aspects of its growth and metastatic spread are such that it is not satisfactorily treated surgically. 
+ Position: (248, 108)
+Phrase:
+ text: Many aspects
+ Minimal Commitment Parse: [det([lexmatch([many]),inputmatch([Many]),tag(det),tokens([many])]),head([lexmatch([aspects]),inputmatch([aspects]),tag(noun),tokens([aspects])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of its growth
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),pron([lexmatch([its]),inputmatch([its]),tag(pron),tokens([its])]),head([lexmatch([growth]),inputmatch([growth]),tag(noun),tokens([growth])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0220844
+   Concept Name: growth
+   Preferred Name: growth aspects
+   Matched Words: [growth]
+   Semantic Types: [phsf]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [MSH, MTH]
+   Positional Info: [(268, 6)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: and
+ Minimal Commitment Parse: [conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])]
+Candidates:
+Mappings:
+Phrase:
+ text: metastatic spread
+ Minimal Commitment Parse: [mod([lexmatch([metastatic]),inputmatch([metastatic]),tag(adj),tokens([metastatic])]),head([lexmatch([spread]),inputmatch([spread]),tag(adj),tokens([spread])])]
+Candidates:
+Mappings:
+Phrase:
+ text: are
+ Minimal Commitment Parse: [aux([lexmatch([are]),inputmatch([are]),tag(aux),tokens([are])])]
+Candidates:
+Mappings:
+Phrase:
+ text: such
+ Minimal Commitment Parse: [det([lexmatch([such]),inputmatch([such]),tag(det),tokens([such])])]
+Candidates:
+Mappings:
+Phrase:
+ text: that
+ Minimal Commitment Parse: [compl([lexmatch([that]),inputmatch([that]),tag(compl),tokens([that])])]
+Candidates:
+Mappings:
+Phrase:
+ text: it
+ Minimal Commitment Parse: [pron([lexmatch([it]),inputmatch([it]),tag(pron),tokens([it])])]
+Candidates:
+Mappings:
+Phrase:
+ text: is
+ Minimal Commitment Parse: [aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])]
+Candidates:
+Mappings:
+Phrase:
+ text: not
+ Minimal Commitment Parse: [adv([lexmatch([not]),inputmatch([not]),tag(adv),tokens([not])])]
+Candidates:
+Mappings:
+Phrase:
+ text: satisfactorily
+ Minimal Commitment Parse: [adv([lexmatch([satisfactorily]),inputmatch([satisfactorily]),tag(adv),tokens([satisfactorily])])]
+Candidates:
+Mappings:
+Phrase:
+ text: treated
+ Minimal Commitment Parse: [verb([lexmatch([treated]),inputmatch([treated]),tag(verb),tokens([treated])])]
+Candidates:
+Mappings:
+Phrase:
+ text: surgically.
+ Minimal Commitment Parse: [adv([lexmatch([surgically]),inputmatch([surgically]),tag(adv),tokens([surgically])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.4
+ Utterance text: However, it is sensitive to both radiation and a variety of chemotherapeutic agents. 
+ Position: (356, 85)
+Phrase:
+ text: However,
+ Minimal Commitment Parse: [adv([lexmatch([however]),inputmatch([However]),tag(adv),tokens([however])]),punc([inputmatch([,]),tokens([])])]
+Candidates:
+Mappings:
+Phrase:
+ text: it
+ Minimal Commitment Parse: [pron([lexmatch([it]),inputmatch([it]),tag(pron),tokens([it])])]
+Candidates:
+Mappings:
+Phrase:
+ text: is
+ Minimal Commitment Parse: [aux([lexmatch([is]),inputmatch([is]),tag(aux),tokens([is])])]
+Candidates:
+Mappings:
+Phrase:
+ text: sensitive
+ Minimal Commitment Parse: [head([lexmatch([sensitive]),inputmatch([sensitive]),tag(adj),tokens([sensitive])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0020517
+   Concept Name: Sensitive
+   Preferred Name: Hypersensitivity
+   Matched Words: [sensitive]
+   Semantic Types: [patf]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, COSTAR, CSP, CST, GO, HL7V2.5, HL7V3.0, HPO, ICD10CM, ICF, ICF-CY, ICPC, LCH_NW, LNC, MEDLINEPLUS, MSH, MTH, MTHICD9, NCI, NCI_CTCAE, NCI_FDA, NCI_NCI-GLOSS, NCI_NICHD, NLMSubSyn, OMIM, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(371, 9)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: to both radiation
+ Minimal Commitment Parse: [prep([lexmatch([to]),inputmatch([to]),tag(prep),tokens([to])]),det([lexmatch([both]),inputmatch([both]),tag(det),tokens([both])]),head([lexmatch([radiation]),inputmatch([radiation]),tag(noun),tokens([radiation])])]
+Candidates:
+Mappings:
+Phrase:
+ text: and
+ Minimal Commitment Parse: [conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])]
+Candidates:
+Mappings:
+Phrase:
+ text: a variety
+ Minimal Commitment Parse: [det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),head([lexmatch([variety]),inputmatch([variety]),tag(noun),tokens([variety])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of chemotherapeutic agents.
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),head([lexmatch([chemotherapeutic agents]),inputmatch([chemotherapeutic,agents]),tag(noun),tokens([chemotherapeutic,agents])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+ Map Score: -966
+   Score: -966
+   Concept Id: C0003392
+   Concept Name: chemotherapeutic agent
+   Preferred Name: Antineoplastic Agents
+   Matched Words: [chemotherapeutic, agent]
+   Semantic Types: [orch, phsu]
+   MatchMap: [[[1, 2], [1, 2], 1]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 1]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, ATC, CHV, CSP, LCH, LCH_NW, MED-RT, MSH, MTH, NCI, NCI_NCI-GLOSS, NLMSubSyn, SNM, SNMI, SNOMEDCT_US, USPMG, VANDF]
+   Positional Info: [(416, 23)]
+   Pruning Status: 0
+   Negation Status: 0
+ Map Score: -966
+   Score: -966
+   Concept Id: C0729502
+   Concept Name: Chemotherapeutic agent
+   Preferred Name: Chemotherapeutic agent
+   Matched Words: [chemotherapeutic, agent]
+   Semantic Types: [phsu]
+   MatchMap: [[[1, 2], [1, 2], 1]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 2], [concept start: 1, concept end: 2], lexical variation: 1]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, MTH, SNOMEDCT_US]
+   Positional Info: [(416, 23)]
+   Pruning Status: 0
+   Negation Status: 0
+Utterance:
+ Id: 00000000.tx.5
+ Utterance text: Use of these agents in combination seems to produce a greater antitumor effect than single drugs. 
+ Position: (441, 98)
+Phrase:
+ text: Use
+ Minimal Commitment Parse: [head([lexmatch([use]),inputmatch([Use]),tag(noun),tokens([use])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of these agents
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),det([lexmatch([these]),inputmatch([these]),tag(det),tokens([these])]),head([lexmatch([agents]),inputmatch([agents]),tag(noun),tokens([agents])])]
+Candidates:
+Mappings:
+ Map Score: -966
+   Score: -966
+   Concept Id: C1254351
+   Concept Name: Agent
+   Preferred Name: Pharmacologic Substance
+   Matched Words: [agent]
+   Semantic Types: [phsu]
+   MatchMap: [[[1, 1], [1, 1], 1]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 1]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [LNC, MTH, NCI, NCI_BRIDG_3_0_3, NCI_CDISC, NCI_CDISC-GLOSS, NCI_FDA, NCI_NCI-GLOSS, NCI_NICHD]
+   Positional Info: [(454, 6)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: in combination
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),head([lexmatch([combination]),inputmatch([combination]),tag(noun),tokens([combination])])]
+Candidates:
+Mappings:
+Phrase:
+ text: seems
+ Minimal Commitment Parse: [verb([lexmatch([seems]),inputmatch([seems]),tag(verb),tokens([seems])])]
+Candidates:
+Mappings:
+Phrase:
+ text: to
+ Minimal Commitment Parse: [adv([lexmatch([to]),inputmatch([to]),tag(adv),tokens([to])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0041260
+   Concept Name: TO
+   Preferred Name: Tryptophanase
+   Matched Words: [to]
+   Semantic Types: [aapp, enzy]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CSP, MSH, MTH, NCI, NLMSubSyn, PDQ, SNMI, SNOMEDCT_US]
+   Positional Info: [(482, 2)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: produce
+ Minimal Commitment Parse: [verb([lexmatch([produce]),inputmatch([produce]),tag(verb),tokens([produce])])]
+Candidates:
+Mappings:
+Phrase:
+ text: a greater antitumor effect
+ Minimal Commitment Parse: [det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),mod([lexmatch([greater]),inputmatch([greater]),tag(adj),tokens([greater])]),head([lexmatch([antitumor effect]),inputmatch([antitumor,effect]),tag(noun),tokens([antitumor,effect])])]
+Candidates:
+Mappings:
+Phrase:
+ text: than single drugs.
+ Minimal Commitment Parse: [prep([lexmatch([than]),inputmatch([than]),tag(prep),tokens([than])]),mod([lexmatch([single]),inputmatch([single]),tag(adj),tokens([single])]),head([lexmatch([drugs]),inputmatch([drugs]),tag(noun),tokens([drugs])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+ Map Score: -861
+   Score: -861
+   Concept Id: C0013227
+   Concept Name: Drugs
+   Preferred Name: Pharmaceutical Preparations
+   Matched Words: [drugs]
+   Semantic Types: [phsu]
+   MatchMap: [[[2, 2], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, CSP, HL7V2.5, ICF, ICF-CY, LCH, LCH_NW, LNC, MEDLINEPLUS, MSH, MTH, NCI, NCI_CDISC-GLOSS, NCI_CPTAC, NCI_NCI-GLOSS, NLMSubSyn, PDQ, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(532, 5)]
+   Pruning Status: 0
+   Negation Status: 0
+Utterance:
+ Id: 00000000.tx.6
+ Utterance text: The combination of radiation and chemotherapy results in marked tumor regressions. 
+ Position: (539, 83)
+Phrase:
+ text: The combination
+ Minimal Commitment Parse: [det([lexmatch([the]),inputmatch([The]),tag(det),tokens([the])]),head([lexmatch([combination]),inputmatch([combination]),tag(noun),tokens([combination])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of radiation
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),head([lexmatch([radiation]),inputmatch([radiation]),tag(noun),tokens([radiation])])]
+Candidates:
+Mappings:
+Phrase:
+ text: and
+ Minimal Commitment Parse: [conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])]
+Candidates:
+Mappings:
+Phrase:
+ text: chemotherapy
+ Minimal Commitment Parse: [head([lexmatch([chemotherapy]),inputmatch([chemotherapy]),tag(noun),tokens([chemotherapy])])]
+Candidates:
+Mappings:
+Phrase:
+ text: results
+ Minimal Commitment Parse: [verb([lexmatch([results]),inputmatch([results]),tag(verb),tokens([results])])]
+Candidates:
+Mappings:
+Phrase:
+ text: in marked tumor regressions.
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),mod([lexmatch([marked]),inputmatch([marked]),tag(adj),tokens([marked])]),mod([lexmatch([tumor]),inputmatch([tumor]),tag(noun),tokens([tumor])]),head([lexmatch([regressions]),inputmatch([regressions]),tag(noun),tokens([regressions])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.7
+ Utterance text: Untreated, this carcinoma has a very short median survival (2 months). 
+ Position: (622, 71)
+Phrase:
+ text: Untreated,
+ Minimal Commitment Parse: [head([lexmatch([untreated]),inputmatch([Untreated]),tag(adj),tokens([untreated])]),punc([inputmatch([,]),tokens([])])]
+Candidates:
+Mappings:
+Phrase:
+ text: this carcinoma
+ Minimal Commitment Parse: [det([lexmatch([this]),inputmatch([this]),tag(det),tokens([this])]),head([lexmatch([carcinoma]),inputmatch([carcinoma]),tag(noun),tokens([carcinoma])])]
+Candidates:
+Mappings:
+Phrase:
+ text: has
+ Minimal Commitment Parse: [aux([lexmatch([has]),inputmatch([has]),tag(aux),tokens([has])])]
+Candidates:
+Mappings:
+Phrase:
+ text: a very short median survival
+ Minimal Commitment Parse: [det([lexmatch([a]),inputmatch([a]),tag(det),tokens([a])]),adv([lexmatch([very]),inputmatch([very]),tag(adv),tokens([very])]),mod([lexmatch([short]),inputmatch([short]),tag(adj),tokens([short])]),head([lexmatch([median survival]),inputmatch([median,survival]),tag(noun),tokens([median,survival])])]
+Candidates:
+Mappings:
+Phrase:
+ text: (2 months
+ Minimal Commitment Parse: [punc([inputmatch([(]),tokens([])]),shapes([inputmatch([2]),features([integer]),tokens([2])]),head([lexmatch([months]),inputmatch([months]),tag(noun),tokens([months])])]
+Candidates:
+Mappings:
+Phrase:
+ text: ).
+ Minimal Commitment Parse: [punc([inputmatch([)]),tokens([])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.8
+ Utterance text: Administration of current "aggressive" combination therapy regimens has resulted in median survivals of nearly 1 year with some patients still living 3 years after therapy.
+ Position: (693, 172)
+Phrase:
+ text: Administration
+ Minimal Commitment Parse: [head([lexmatch([administration]),inputmatch([Administration]),tag(noun),tokens([administration])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of current "aggressive" combination therapy regimens
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),mod([lexmatch([current]),inputmatch([current]),tag(adj),tokens([current])]),punc([inputmatch(["]),tokens([])]),mod([lexmatch([aggressive]),inputmatch([aggressive]),tag(adj),tokens([aggressive])]),punc([inputmatch(["]),tokens([])]),mod([lexmatch([combination therapy]),inputmatch([combination,therapy]),tag(noun),tokens([combination,therapy])]),head([lexmatch([regimens]),inputmatch([regimens]),tag(noun),tokens([regimens])])]
+Candidates:
+Mappings:
+Phrase:
+ text: has
+ Minimal Commitment Parse: [aux([lexmatch([has]),inputmatch([has]),tag(aux),tokens([has])])]
+Candidates:
+Mappings:
+Phrase:
+ text: resulted
+ Minimal Commitment Parse: [verb([lexmatch([resulted]),inputmatch([resulted]),tag(verb),tokens([resulted])])]
+Candidates:
+Mappings:
+Phrase:
+ text: in median survivals
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),head([lexmatch([median survivals]),inputmatch([median,survivals]),tag(noun),tokens([median,survivals])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of nearly 1 year
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),adv([lexmatch([nearly]),inputmatch([nearly]),tag(adv),tokens([nearly])]),shapes([inputmatch([1]),features([integer]),tokens([1])]),head([lexmatch([year]),inputmatch([year]),tag(noun),tokens([year])])]
+Candidates:
+Mappings:
+Phrase:
+ text: with some patients
+ Minimal Commitment Parse: [prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),det([lexmatch([some]),inputmatch([some]),tag(det),tokens([some])]),head([lexmatch([patients]),inputmatch([patients]),tag(noun),tokens([patients])])]
+Candidates:
+Mappings:
+Phrase:
+ text: still
+ Minimal Commitment Parse: [adv([lexmatch([still]),inputmatch([still]),tag(adv),tokens([still])])]
+Candidates:
+Mappings:
+Phrase:
+ text: living
+ Minimal Commitment Parse: [verb([lexmatch([living]),inputmatch([living]),tag(verb),tokens([living])])]
+Candidates:
+Mappings:
+Phrase:
+ text: 3 years
+ Minimal Commitment Parse: [shapes([inputmatch([3]),features([integer]),tokens([3])]),head([lexmatch([years]),inputmatch([years]),tag(noun),tokens([years])])]
+Candidates:
+Mappings:
+Phrase:
+ text: after therapy.
+ Minimal Commitment Parse: [prep([lexmatch([after]),inputmatch([after]),tag(prep),tokens([after])]),head([lexmatch([therapy]),inputmatch([therapy]),tag(noun),tokens([therapy])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:

@@ -1,0 +1,292 @@
+input text: 
+ [Neuro-muscular synapse ultrastructure in the Lambert-Eaton myasthenic syndrome]. A study was made of the ultrastructure of the neuro-muscular synapses in the patients with the myasthenic Lambert-Eaton syndrome. Most of the synapses displayed an increased content of synaptic vesicles in the axon terminals, and the anastomosing synaptic folds were increased in number and depth. Local destructive changes were found in the terminals of some synapses. The data obtained confirmed the fact that this syndrome was underlied by disorder of the transmitter release from the presynaptic structures. 
+Utterance:
+ Id: 00000000.tx.1
+ Utterance text: [Neuro-muscular synapse ultrastructure in the Lambert-Eaton myasthenic syndrome]. 
+ Position: (0, 82)
+Phrase:
+ text: [Neuro-muscular synapse ultrastructure
+ Minimal Commitment Parse: [punc([inputmatch([[]),tokens([])]),mod([lexmatch([neuro-muscular]),inputmatch([Neuro,-,muscular]),tag(adj),tokens([neuro,muscular])]),mod([lexmatch([synapse]),inputmatch([synapse]),tag(noun),tokens([synapse])]),head([lexmatch([ultrastructure]),inputmatch([ultrastructure]),tag(noun),tokens([ultrastructure])])]
+Candidates:
+Mappings:
+Phrase:
+ text: in the Lambert-Eaton myasthenic syndrome
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([lambert-eaton myasthenic syndrome]),inputmatch([Lambert,-,Eaton,myasthenic,syndrome]),tag(noun),tokens([lambert,eaton,myasthenic,syndrome])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0022972
+   Concept Name: Lambert Eaton Myasthenic Syndrome
+   Preferred Name: Lambert-Eaton Myasthenic Syndrome
+   Matched Words: [lambert, eaton, myasthenic, syndrome]
+   Semantic Types: [dsyn]
+   MatchMap: [[[1, 1], [1, 1], 0], [[2, 2], [2, 2], 0], [[3, 4], [3, 4], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0], [[phrase start: 2, phrase end: 2], [concept start: 2, concept end: 2], lexical variation: 0], [[phrase start: 3, phrase end: 4], [concept start: 3, concept end: 4], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, CSP, DXP, ICD10CM, ICD9CM, MSH, MTH, MTHICD9, NCI, NCI_CTRP, OMIM, PDQ, SNMI, SNOMEDCT_US]
+   Positional Info: [(46, 33)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: ].
+ Minimal Commitment Parse: [punc([inputmatch([]]),tokens([])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.2
+ Utterance text: A study was made of the ultrastructure of the neuro-muscular synapses in the patients with the myasthenic Lambert-Eaton syndrome. 
+ Position: (82, 130)
+Phrase:
+ text: A study
+ Minimal Commitment Parse: [det([lexmatch([a]),inputmatch([A]),tag(det),tokens([a])]),head([lexmatch([study]),inputmatch([study]),tag(noun),tokens([study])])]
+Candidates:
+Mappings:
+Phrase:
+ text: was
+ Minimal Commitment Parse: [aux([lexmatch([was]),inputmatch([was]),tag(aux),tokens([was])])]
+Candidates:
+Mappings:
+Phrase:
+ text: made
+ Minimal Commitment Parse: [verb([lexmatch([made]),inputmatch([made]),tag(verb),tokens([made])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of the ultrastructure
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([ultrastructure]),inputmatch([ultrastructure]),tag(noun),tokens([ultrastructure])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of the neuro-muscular synapses
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([neuro-muscular]),inputmatch([neuro,-,muscular]),tag(adj),tokens([neuro,muscular])]),head([lexmatch([synapses]),inputmatch([synapses]),tag(noun),tokens([synapses])])]
+Candidates:
+Mappings:
+Phrase:
+ text: in the patients
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([patients]),inputmatch([patients]),tag(noun),tokens([patients])])]
+Candidates:
+Mappings:
+Phrase:
+ text: with the myasthenic Lambert-Eaton syndrome.
+ Minimal Commitment Parse: [prep([lexmatch([with]),inputmatch([with]),tag(prep),tokens([with])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([myasthenic]),inputmatch([myasthenic]),tag(adj),tokens([myasthenic])]),head([lexmatch([lambert-eaton syndrome]),inputmatch([Lambert,-,Eaton,syndrome]),tag(noun),tokens([lambert,eaton,syndrome])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+ Map Score: -923
+   Score: -923
+   Concept Id: C0022972
+   Concept Name: LAMBERT EATON SYNDROME
+   Preferred Name: Lambert-Eaton Myasthenic Syndrome
+   Matched Words: [lambert, eaton, syndrome]
+   Semantic Types: [dsyn]
+   MatchMap: [[[2, 4], [1, 3], 0]]
+   MatchMap alt. repr.: [[[phrase start: 2, phrase end: 4], [concept start: 2, concept end: 4], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, CSP, DXP, ICD10CM, ICD9CM, MSH, MTH, MTHICD9, NCI, NCI_CTRP, OMIM, PDQ, SNMI, SNOMEDCT_US]
+   Positional Info: [(188, 22)]
+   Pruning Status: 0
+   Negation Status: 0
+Utterance:
+ Id: 00000000.tx.3
+ Utterance text: Most of the synapses displayed an increased content of synaptic vesicles in the axon terminals, and the anastomosing synaptic folds were increased in number and depth. 
+ Position: (212, 168)
+Phrase:
+ text: Most
+ Minimal Commitment Parse: [adv([lexmatch([most]),inputmatch([Most]),tag(adv),tokens([most])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of the synapses
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([synapses]),inputmatch([synapses]),tag(noun),tokens([synapses])])]
+Candidates:
+Mappings:
+Phrase:
+ text: displayed
+ Minimal Commitment Parse: [verb([lexmatch([displayed]),inputmatch([displayed]),tag(verb),tokens([displayed])])]
+Candidates:
+Mappings:
+Phrase:
+ text: an increased content
+ Minimal Commitment Parse: [det([lexmatch([an]),inputmatch([an]),tag(det),tokens([an])]),mod([lexmatch([increased]),inputmatch([increased]),tag(adj),tokens([increased])]),head([lexmatch([content]),inputmatch([content]),tag(noun),tokens([content])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of synaptic vesicles
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),head([lexmatch([synaptic vesicles]),inputmatch([synaptic,vesicles]),tag(noun),tokens([synaptic,vesicles])])]
+Candidates:
+Mappings:
+Phrase:
+ text: in the axon terminals,
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([axon]),inputmatch([axon]),tag(noun),tokens([axon])]),head([lexmatch([terminals]),inputmatch([terminals]),tag(noun),tokens([terminals])]),punc([inputmatch([,]),tokens([])])]
+Candidates:
+Mappings:
+Phrase:
+ text: and
+ Minimal Commitment Parse: [conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])]
+Candidates:
+Mappings:
+Phrase:
+ text: the anastomosing synaptic folds
+ Minimal Commitment Parse: [det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([anastomosing]),inputmatch([anastomosing]),tag(adj),tokens([anastomosing])]),mod([lexmatch([synaptic]),inputmatch([synaptic]),tag(adj),tokens([synaptic])]),head([lexmatch([folds]),inputmatch([folds]),tag(noun),tokens([folds])])]
+Candidates:
+Mappings:
+ Map Score: -627
+   Score: -627
+   Concept Id: C0332853
+   Concept Name: anastomose
+   Preferred Name: Anastomosis
+   Matched Words: [anastomose]
+   Semantic Types: [acab]
+   MatchMap: [[[1, 1], [1, 1], 1]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 1]]
+   is Head?: false
+   is Overmatch?: false
+   Sources: [CHV, MTH, SNM, SNMI, SNOMEDCT_US]
+   Positional Info: [(316, 12)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: were
+ Minimal Commitment Parse: [aux([lexmatch([were]),inputmatch([were]),tag(aux),tokens([were])])]
+Candidates:
+Mappings:
+Phrase:
+ text: increased
+ Minimal Commitment Parse: [verb([lexmatch([increased]),inputmatch([increased]),tag(verb),tokens([increased])])]
+Candidates:
+Mappings:
+Phrase:
+ text: in number
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),head([lexmatch([number]),inputmatch([number]),tag(noun),tokens([number])])]
+Candidates:
+Mappings:
+Phrase:
+ text: and
+ Minimal Commitment Parse: [conj([lexmatch([and]),inputmatch([and]),tag(conj),tokens([and])])]
+Candidates:
+Mappings:
+Phrase:
+ text: depth.
+ Minimal Commitment Parse: [head([lexmatch([depth]),inputmatch([depth]),tag(noun),tokens([depth])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.4
+ Utterance text: Local destructive changes were found in the terminals of some synapses. 
+ Position: (380, 72)
+Phrase:
+ text: Local destructive changes
+ Minimal Commitment Parse: [mod([lexmatch([local]),inputmatch([Local]),tag(adj),tokens([local])]),mod([lexmatch([destructive]),inputmatch([destructive]),tag(adj),tokens([destructive])]),head([lexmatch([changes]),inputmatch([changes]),tag(noun),tokens([changes])])]
+Candidates:
+Mappings:
+Phrase:
+ text: were
+ Minimal Commitment Parse: [aux([lexmatch([were]),inputmatch([were]),tag(aux),tokens([were])])]
+Candidates:
+Mappings:
+Phrase:
+ text: found
+ Minimal Commitment Parse: [verb([lexmatch([found]),inputmatch([found]),tag(verb),tokens([found])])]
+Candidates:
+Mappings:
+Phrase:
+ text: in the terminals
+ Minimal Commitment Parse: [prep([lexmatch([in]),inputmatch([in]),tag(prep),tokens([in])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([terminals]),inputmatch([terminals]),tag(noun),tokens([terminals])])]
+Candidates:
+Mappings:
+Phrase:
+ text: of some synapses.
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),det([lexmatch([some]),inputmatch([some]),tag(det),tokens([some])]),head([lexmatch([synapses]),inputmatch([synapses]),tag(noun),tokens([synapses])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
+Utterance:
+ Id: 00000000.tx.5
+ Utterance text: The data obtained confirmed the fact that this syndrome was underlied by disorder of the transmitter release from the presynaptic structures.
+ Position: (452, 141)
+Phrase:
+ text: The data
+ Minimal Commitment Parse: [det([lexmatch([the]),inputmatch([The]),tag(det),tokens([the])]),head([lexmatch([data]),inputmatch([data]),tag(noun),tokens([data])])]
+Candidates:
+Mappings:
+Phrase:
+ text: obtained
+ Minimal Commitment Parse: [verb([lexmatch([obtained]),inputmatch([obtained]),tag(verb),tokens([obtained])])]
+Candidates:
+Mappings:
+Phrase:
+ text: confirmed
+ Minimal Commitment Parse: [verb([lexmatch([confirmed]),inputmatch([confirmed]),tag(verb),tokens([confirmed])])]
+Candidates:
+Mappings:
+Phrase:
+ text: the fact
+ Minimal Commitment Parse: [det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),head([lexmatch([fact]),inputmatch([fact]),tag(noun),tokens([fact])])]
+Candidates:
+Mappings:
+Phrase:
+ text: that
+ Minimal Commitment Parse: [compl([lexmatch([that]),inputmatch([that]),tag(compl),tokens([that])])]
+Candidates:
+Mappings:
+Phrase:
+ text: this syndrome
+ Minimal Commitment Parse: [det([lexmatch([this]),inputmatch([this]),tag(det),tokens([this])]),head([lexmatch([syndrome]),inputmatch([syndrome]),tag(noun),tokens([syndrome])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0039082
+   Concept Name: Syndrome
+   Preferred Name: Syndrome
+   Matched Words: [syndrome]
+   Semantic Types: [dsyn]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [AOD, CHV, CSP, LCH, LCH_NW, MSH, MTH, NCI, NCI_NCI-GLOSS, NCI_NICHD, SNMI, SNOMEDCT_US]
+   Positional Info: [(499, 8)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: was
+ Minimal Commitment Parse: [aux([lexmatch([was]),inputmatch([was]),tag(aux),tokens([was])])]
+Candidates:
+Mappings:
+Phrase:
+ text: underlied
+ Minimal Commitment Parse: [head([inputmatch([underlied]),tag(noun),tokens([underlied])])]
+Candidates:
+Mappings:
+Phrase:
+ text: by disorder
+ Minimal Commitment Parse: [prep([lexmatch([by]),inputmatch([by]),tag(prep),tokens([by])]),head([lexmatch([disorder]),inputmatch([disorder]),tag(noun),tokens([disorder])])]
+Candidates:
+Mappings:
+ Map Score: -1000
+   Score: -1000
+   Concept Id: C0012634
+   Concept Name: Disorder
+   Preferred Name: Disease
+   Matched Words: [disorder]
+   Semantic Types: [dsyn]
+   MatchMap: [[[1, 1], [1, 1], 0]]
+   MatchMap alt. repr.: [[[phrase start: 1, phrase end: 1], [concept start: 1, concept end: 1], lexical variation: 0]]
+   is Head?: true
+   is Overmatch?: false
+   Sources: [CHV, CSP, LCH, LCH_NW, LNC, MSH, MTH, NCI, NCI_CDISC-GLOSS, NCI_CTRP, NCI_NCI-GLOSS, NCI_NICHD, SNMI, SNOMEDCT_US]
+   Positional Info: [(525, 8)]
+   Pruning Status: 0
+   Negation Status: 0
+Phrase:
+ text: of the transmitter release
+ Minimal Commitment Parse: [prep([lexmatch([of]),inputmatch([of]),tag(prep),tokens([of])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([transmitter]),inputmatch([transmitter]),tag(noun),tokens([transmitter])]),head([lexmatch([release]),inputmatch([release]),tag(noun),tokens([release])])]
+Candidates:
+Mappings:
+Phrase:
+ text: from the presynaptic structures.
+ Minimal Commitment Parse: [prep([lexmatch([from]),inputmatch([from]),tag(prep),tokens([from])]),det([lexmatch([the]),inputmatch([the]),tag(det),tokens([the])]),mod([lexmatch([presynaptic]),inputmatch([presynaptic]),tag(adj),tokens([presynaptic])]),head([lexmatch([structures]),inputmatch([structures]),tag(noun),tokens([structures])]),punc([inputmatch([.]),tokens([])])]
+Candidates:
+Mappings:
